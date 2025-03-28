@@ -1,12 +1,15 @@
+# fly.toml app configuration file generated for facebook-data-puller on 2025-03-27T23:32:34-04:00
+#
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
 
-app = 'fastapi-starter-flyio'
-primary_region = 'sjc'
+app = 'facebook-data-puller'
+primary_region = 'ord'
 
 [build]
 
 [http_service]
-  internal_port = 8080
+  internal_port = 6969
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
